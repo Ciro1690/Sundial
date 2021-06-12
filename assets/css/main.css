@@ -62,6 +62,7 @@ body {
 
 .heading {
 	font-size: 3rem;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 mark {
@@ -2158,16 +2159,14 @@ input, select, textarea {
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #37c0fb;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			color: #fff;
-			border-radius: 100%;
 			display: inline-block;
-			width: 10em;
-			height: 10em;
+			width: 14em;
+			height: 14em;
 			line-height: 5em;
 			box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
 			margin: 0 0 2em 0;
@@ -2512,6 +2511,10 @@ input, select, textarea {
 
 	.box.highlight {
 		text-align: center;
+	}
+
+	.box.highlight h2, h3 {
+		color: black;
 	}
 
 	.box.post {

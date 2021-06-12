@@ -55,6 +55,15 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.home-banner {
+	width: 100%;
+	height: auto;
+}
+
+.heading {
+	font-size: 3rem;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -1304,6 +1313,7 @@ input, select, textarea {
 
 				.row > .col-6-narrower {
 					width: 50%;
+					text-align: center;
 				}
 
 				.row > .off-6-narrower {
@@ -1842,6 +1852,7 @@ input, select, textarea {
 
 				.row > .col-12-mobilep {
 					width: 100%;
+					text-align: center;
 				}
 
 				.row > .off-12-mobilep {
@@ -2961,11 +2972,11 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.highlight {
+			/* .box.highlight {
 				text-align: left;
 				position: relative;
 				padding-left: 7em;
-			}
+			} */
 
 				.box.highlight i {
 					position: absolute;
@@ -2984,14 +2995,15 @@ input, select, textarea {
 
 		/* Header */
 
-			#header {
+			/* #header {
 				display: none;
-			}
+			} */
 
 		/* Banner */
 
 			#banner {
 				height: 20em;
+				width: 100%;
 			}
 
 				#banner header h2 {
@@ -3041,7 +3053,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#page-wrapper {
+			/* #page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3078,18 +3090,18 @@ input, select, textarea {
 				height: 44px;
 				line-height: 44px;
 				box-shadow: 0 4px 0 0 #37c0fb;
-			}
+			} */
 
-				#titleBar .title {
+				/* #titleBar .title {
 					display: block;
 					position: relative;
 					font-weight: 600;
 					text-align: center;
 					color: #fff;
 					z-index: 1;
-				}
+				} */
 
-					#titleBar .title em {
+					/* #titleBar .title em {
 						font-style: normal;
 						font-weight: 300;
 					}
@@ -3227,7 +3239,7 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
-	}
+	} */
 
 /* Mobile */
 
@@ -3285,6 +3297,7 @@ input, select, textarea {
 
 			#banner {
 				height: 18em;
+				width: 100%;
 			}
 
 		/* Wrapper */
@@ -3325,9 +3338,9 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.highlight {
+			/* .box.highlight {
 				padding-left: calc(4em + 30px);
-			}
+			} */
 
 			.box.post .inner {
 				margin-left: calc(30% + 20px);
@@ -3341,6 +3354,7 @@ input, select, textarea {
 
 			#banner {
 				height: 20em;
+				width: 100%;
 			}
 
 				#banner header {
@@ -3365,8 +3379,4 @@ input, select, textarea {
 				padding: 2em 20px;
 				text-align: left;
 			}
-	}
-
-	.display-1{
-		font-size: 40px;
 	}
